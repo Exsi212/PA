@@ -1,6 +1,71 @@
-body {
-  background-color: black;
+*{
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  border:0;
+
+}
+html,body {
+  background-color: black;
+    font-family: 'Roboto',sans-serif;
   max-width: 1920px;
+}
+.content_text{
+  color: white;
+  font-family: 'Roboto',sans-serif;
+  font-size: 15px;
+}
+
+/* ограничение контента  по ширине */
+.container{
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 50;
+}
+.header:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+.header_body{
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+}
+.header_list{
+  display: flex;
+}
+.header_list li{
+  list-style: none;
+  margin: 0px 0px 0px 20px;
+}
+.header_link{
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: 'Roboto',sans-serif;
+}
+.header_logo{
+  flex: 0 0 60px;
+}
+.header_logo img{
+  max-width: 100%;
+
+}
+.content{
+  padding-top: 100px;
 }
