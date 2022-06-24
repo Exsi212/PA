@@ -11,7 +11,9 @@ html, body {
   height: 100%
 }
 
-.wrapper {}
+.wrapper {
+  min-height: 100%;
+}
 
 .container {
   max-width: 1180px;
@@ -85,17 +87,38 @@ html, body {
   padding: 100px 0px 0px 0px;
 }
 
-.content__text{
+.content__text {
   color: white;
-  font-family: 'Roboto',sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-style: normal;
   font-size: 94px;
   margin-top: 3%;
   line-height: 1.2;
 }
-.content_img  {
-position: absolute;
-top: 10%;
-left:30%;
+
+.content__text_little {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  margin-top: 13%;
+  font-size: 24px;
+  position: absolute;
+  line-height: 1.3;
+}
+
+.content_img {
+  position: absolute;
+  top: 12%;
+  left: 30%;
+}
+.footer{
+  position: relative;
+  color: white;
+  font-family: 'Roboto',sans-serif;
+  justify-content: space-around;
+  display: flex;
+  margin-top: 27%;
+
 }
