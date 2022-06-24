@@ -94,3 +94,8 @@ html, body {
   margin-top: 3%;
   line-height: 1.2;
 }
+.content_img  {
+position: absolute;
+top: 10%;
+left:30%;
+}
