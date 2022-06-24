@@ -13,80 +13,84 @@ html, body {
 
 .wrapper {}
 
-  .container{
-  	max-width: 1180px;
-  	margin: 0px auto;
-  	padding: 0px 10px;
-  }
-  .header {
-	position: fixed;
-	width: 100%;
-	top: 0;
-	left: 0;
-	z-index: 50;
+.container {
+  max-width: 1180px;
+  margin: 0px auto;
+  padding: 0px 10px;
 }
-.header:before{
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-color: black;
-	z-index: 2;
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 50;
 }
+
+.header:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 2;
+}
+
 .header__body {
-	position: relative;
-	display: flex;
-	justify-content: space-between;
-	height: 100px;
-	align-items: center;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
 }
 
 .header__logo {
-
-	position: relative;
-	z-index: 3;
+  position: relative;
+  z-index: 3;
 }
+
 .header__logo img {
   width: 100%;
   margin-top: 15%;
 }
+
 .header__burger {
-	display: none;
+  display: none;
 }
+
 .header__menu {}
 
-
 .header__list {
-	display: flex;
-	position: relative;
-	z-index: 2;
+  display: flex;
+  position: relative;
+  z-index: 2;
 }
-.header__list li{
-	list-style: none;
-	margin: 0px 0px 0px 20px;
+
+.header__list li {
+  list-style: none;
+  margin: 0px 0px 0px 20px;
 }
+
 .header__link {
-	color: #fff;
-	text-transform: uppercase;
-	font-size: 18px;
-	text-decoration: none;
-  font-family: 'Roboto',sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
 }
 
-  .content_text  {
-    font-size: 16px;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    line-height: 20px;
-  }
+.content {
+  padding: 100px 0px 0px 0px;
+}
 
-  .content_text p {
-    margin-left: 0px 0px 20px 20px;
-    font-family: 'Roboto',sans-serif;
-  }
-
-  .content {
-    padding: 100px 0px 0px 0px;
-  }
+.content__text{
+  color: white;
+  font-family: 'Roboto',sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 94px;
+  margin-top: 3%;
+  line-height: 1.2;
+}
