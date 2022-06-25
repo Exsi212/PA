@@ -145,3 +145,15 @@ html, body {
   font-weight: bold;
   margin-top: 35px;
 }
+.arcade{
+  position: absolute;
+  left: 60%;
+  top: 80%;
+
+}
+.dialog1{
+  left: 61%;
+  position: absolute;
+  top: 40%;
+
+}
