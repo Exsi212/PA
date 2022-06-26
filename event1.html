@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Записаться на мероприятие</title>
+  <link rel="stylesheet" href="resource/stylesheets/style.css">
+  <!-- fonts connect -->
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <div class="wrapper">
+  			<div class="form">
+  				<form action="#" id="form" class="form__body">
+  					<h1 class="form__title">Регистрация на мероприятие</h1>
+  					<div class="form__item">
+  						<label for="formName" class="form__label">Имя*:</label>
+  						<input id="formName" type="text" name="name" class="form__input _req">
+  					</div>
+  					<div class="form__item">
+  						<label for="formEmail" class="form__label">E-mail*:</label>
+  						<input id="formEmail" type="text" name="email" class="form__input _req _email">
+  					</div>
+
+  					<div class="form__item">
+  						<label for="formMessage" class="form__label">Сообщение:</label>
+  						<textarea name="message" id="formMessage" class="form__input"></textarea>
+  					</div>
+
+
+  					<div class="form__item">
+  						<div class="checkbox">
+  							<input id="formAgreement" checked type="checkbox" name="agreement" class="checkbox__input _req">
+  							<label for="formAgreement" class="checkbox__label"><span>Я даю свое согласие на обработку персональных данных в соответствии с <a href="">Условиями</a>*</span></label>
+  						</div>
+  					</div>
+  					<button type="submit" class="form__button">Отправить</button>
+  				</form>
+  			</div>
+  		</div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
